@@ -12,7 +12,9 @@ shared style
 }
 
 .navbar,
-.hero-container{
+.hero-container,
+.card-container
+{
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -87,8 +89,15 @@ nav{
 /* ============== */
 /* hero style */
 /* ============== */
-  .hero-content-1,
-  .hero-content-2{
+header{
+  background: white;
+}
+.hero-container{
+  margin-bottom: 50px;
+}
+
+.hero-content-1,
+.hero-content-2{
   display: flex;
   justify-content: space-between;
 }
@@ -106,4 +115,42 @@ nav{
 .hero-content-1-img img,
 .hero-content-2-img img{
   width: 400px;
+}
+
+/* ================= */
+/* Card section styles */
+/* ================= */
+#card-section{
+  background: rgba(146, 146, 146, 0.089);
+}
+.card-container{
+  padding-top: 124px;
+  padding-bottom: 187px;
+}
+.card-container h2{
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.all-cards{
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.card-content{
+  max-width: 370px;
+  box-shadow: 2px 0px 10px 0px #36395857;
+  border-radius: 10px;
+  padding: 16px;
+  background: white;
+}
+
+.card-img img{
+  max-width: 100%;
+}
+
+.card-title{
+  font-size: 24px;
+  line-height: normal;
 }
