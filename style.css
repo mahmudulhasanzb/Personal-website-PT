@@ -13,7 +13,8 @@ shared style
 
 .navbar,
 .hero-container,
-.card-container
+.card-container,
+.footer-container
 {
   max-width: 1200px;
   margin: 0 auto;
@@ -52,9 +53,11 @@ shared style
   font-weight: 200;
   padding: 5px 15px;
   cursor: pointer;
+  transition: all 0.3s ease-in-out;
 }
-.flex{
-  display: flex;
+
+.btn:hover{
+  background-color: #363958;
 }
 
 /*==============
@@ -153,4 +156,66 @@ header{
 .card-title{
   font-size: 24px;
   line-height: normal;
+}
+
+
+/* ============= */
+/* footer styles */
+/* ============= */
+footer{
+  background: white;
+}
+
+.footer-content{
+  max-width: 900px;
+  margin: 0 auto;
+  padding-top: 110px;
+}
+
+.footer-banner{
+  background-image: url("shapes/Group_33094_1.png") ;
+  background-size: cover;
+  background-position: center;
+}
+
+.footer-banner-text{
+  display: flex;
+  justify-content: space-between;
+  padding: 80px;
+  align-items: center;
+}
+
+.footer-banner-text h1{
+  color: white;
+}
+
+
+
+.contact-info{
+  align-items: center;
+  text-align: center;
+}
+
+.contact-info h5{
+ font-size: 24px;
+ color: #696871;
+}
+
+.contact-info h3{
+  font-size: 36px;
+}
+
+.social-links img{
+  max-width: 36px;
+}
+
+.contact-info{
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.social-links{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
