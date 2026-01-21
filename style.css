@@ -1,0 +1,109 @@
+/* Fonts */
+.bebas-neue-font {
+  font-family: "Bebas Neue", sans-serif;
+}
+
+/* ==============
+shared style 
+=================*/
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.navbar,
+.hero-container{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.tex-blue{
+  color: #363958;
+}
+
+.text-orrange{
+  color: #FF8367;
+}
+.section-heading{
+  color: #363958;
+  font-size: 3rem;
+  font-weight: 500;
+  line-height: 50px;
+}
+
+.description-text{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #3C3C3C;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.btn{
+  color: white;
+  border: none;
+  border-radius: 6px;
+  background-color: #F46060; 
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 200;
+  padding: 5px 15px;
+  cursor: pointer;
+}
+.flex{
+  display: flex;
+}
+
+/*==============
+ main style 
+================*/
+nav{
+  background: #ff83673e;
+}
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.brand-name h2{
+  color: #363958;
+}
+
+.nav-links{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: flex;
+  gap: 40px;
+  
+}
+
+.nav-links a{
+  text-decoration: none;
+  color: #363958;
+}
+
+/* ============== */
+/* hero style */
+/* ============== */
+  .hero-content-1,
+  .hero-content-2{
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero-content-text{
+  max-width: 500px;
+  height: 100%;
+  margin-top: 100px;
+}
+
+.hero-content-2 .hero-content-text{
+  margin-top: 180px;
+}
+
+.hero-content-1-img img,
+.hero-content-2-img img{
+  width: 400px;
+}
